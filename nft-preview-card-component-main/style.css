@@ -54,19 +54,6 @@ a:hover {
     background-size: 302px 302px;
 }
 
-.image:hover .overlay {
-    display: flex;
-    opacity: 0.5;
-}
-
-.view {
-    position: absolute;
-    width: 48px;
-    height: 48px;
-    background: url('images/icon-view.svg');
-    background-repeat: no-repeat;
-    background-size: 48px 48px;
-}
 .overlay {
     align-items: center;
     justify-content: center;
@@ -76,6 +63,26 @@ a:hover {
     background: var(--cyan);
     border-radius: 8px;
     display: none;
+    opacity : 0;
+    transition: transform 250ms, opacity 400ms;
+}
+
+.image:hover .overlay {
+    display: flex;
+}
+
+.overlay:hover {
+    opacity: .5;
+    transition: transform 250ms, opacity 400ms;
+}
+
+.view {
+    position: absolute;
+    width: 48px;
+    height: 48px;
+    background: url('images/icon-view.svg');
+    background-repeat: no-repeat;
+    background-size: 48px 48px;
 }
 
 .title {
