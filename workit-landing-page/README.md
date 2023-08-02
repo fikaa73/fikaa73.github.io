@@ -33,8 +33,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/fikaa73/fikaa73.github.io/workit-landing-page)
-- Live Site URL: [Add live site URL here](https://fikaa73.github.io/workit-landing-page)
+- Solution URL: [Solution](https://github.com/fikaa73/fikaa73.github.io/workit-landing-page)
+- Live Site URL: [Live](https://fikaa73.github.io/workit-landing-page)
 
 ## My process
 
